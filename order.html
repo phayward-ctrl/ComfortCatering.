@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Comfort Catering :: Order Inquiries</title>
+    <meta charset="utf-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Submit an order inquiry to Comfort Catering for weddings, birthdays, corporate events, family gatherings, and other special occasions in Bermuda.">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Comfort Catering</h1>
+</header>
+
+<nav aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="catering.html">Catering Services</a>
+    <a href="menu.html">Menu</a>
+    <a href="contact.html">Contact</a>
+    <a href="order.html">Order Inquiries</a>
+</nav>
+
+<main>
+
+    <h2>Order Inquiry</h2>
+
+    <p>
+        Tell us about your event and catering needs. Please provide as much
+        information as possible so we can better understand your request.
+    </p>
+
+    <p>
+        The amount of advance notice required depends on the size of the
+        function and the volume of food being ordered. Most orders require
+        between 48 and 120 hours of notice.
+    </p>
+
+    <form action="#" method="post">
+
+        <p>
+            <label for="customer-name">Full Name:</label><br>
+            <input type="text"
+                   id="customer-name"
+                   name="customer_name"
+                   required>
+        </p>
+
+        <p>
+            <label for="customer-email">Email Address:</label><br>
+            <input type="email"
+                   id="customer-email"
+                   name="customer_email"
+                   required>
+        </p>
+
+        <p>
+            <label for="customer-phone">Phone Number:</label><br>
+            <input type="tel"
+                   id="customer-phone"
+                   name="customer_phone"
+                   required>
+        </p>
+
+        <p>
+            <label for="event-type">Event Type:</label><br>
+            <select id="event-type"
+                    name="event_type"
+                    required>
+                <option value="">Select an event type</option>
+                <option value="wedding">Wedding</option>
+                <option value="birthday">Birthday</option>
+                <option value="corporate">Corporate Event</option>
+                <option value="family-gathering">Family Gathering</option>
+                <option value="graduation">Graduation</option>
+                <option value="baby-shower">Baby Shower</option>
+                <option value="holiday-event">Holiday Event</option>
+                <option value="other">Other</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="event-date">Event Date:</label><br>
+            <input type="date"
+                   id="event-date"
+                   name="event_date"
+                   required>
+        </p>
+
+        <p>
+            <label for="guest-count">Estimated Number of Guests:</label><br>
+            <input type="number"
+                   id="guest-count"
+                   name="guest_count"
+                   min="1"
+                   required>
+        </p>
+
+        <p>
+            <label for="event-location">Event Location:</label><br>
+            <input type="text"
+                   id="event-location"
+                   name="event_location">
+        </p>
+
+        <p>
+            <label for="contact-method">Preferred Contact Method:</label><br>
+            <select id="contact-method"
+                    name="contact_method">
+                <option value="email">Email</option>
+                <option value="phone">Phone</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="order-details">
+                Food selections, dietary needs, and additional details:
+            </label><br>
+
+            <textarea id="order-details"
+                      name="order_details"
+                      rows="7"
+                      cols="45"
+                      required></textarea>
+        </p>
+
+        <p>
+            Thank you for considering Comfort Catering. We look forward to
+            helping make your event memorable.
+        </p>
+
+        <p>
+            <input type="submit" value="Submit Inquiry">
+            <input type="reset" value="Clear Form">
+        </p>
+
+    </form>
+
+</main>
+
+<footer>
+
+    <p>
+        Copyright &copy; 2026 Comfort Catering
+    </p>
+
+    <p>
+        <a href="mailto:psihayward@icloud.com">
+            psihayward@icloud.com
+        </a>
+        <br>
+
+        <a href="tel:+14419027891">
+            (441) 902-7891
+        </a>
+    </p>
+
+</footer>
+
+</body>
+</html>
